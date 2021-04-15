@@ -1,0 +1,28 @@
+
+<!-- include header -->
+<%- include('include/_header') %>
+<!-- /include header -->
+
+  <!-- Main  -->
+  <main id="site-main">
+    <div class="container">
+        <div class="box-nav d-flex justify-between">
+           <div class="filter">
+               <a href="/"><i class="fas fa-angle-double-left"></i> 모든 사용자</a>
+           </div>
+        </div>
+        <div class="form-title text-center">
+            <h2 class="text-dark">사용자 등록</h2>
+            <span class="text-light">- 아래의 양식으로 새계정을 만들어주세요. -</span>
+        </div>
+
+        <!-- add user form -->
+        <%- include('include/_form') %>
+       
+    </div>
+</main>
+<!-- /Main  -->
+
+<!-- include footer -->
+<%- include('include/_footer') %>
+<!-- /include footer -->
