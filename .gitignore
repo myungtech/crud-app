@@ -2,6 +2,7 @@
 /build
 
 # misc
+config.env
 .DS_Store
 .env
 .env.local
